@@ -14,7 +14,7 @@
 | REQ-PLAYER-004 | Releasing the screen shall end the extended jump input. | TC-PLAYER-004  | PASS | \- |
 | REQ-PLAYER-005 | The player shall be able to perform consecutive jumps during gameplay.  | TC-PLAYER-005  | PASS | \- |
 | REQ-PLAYER-006 | The player shall correctly land after completing a jump. | TC-PLAYER-006  | PASS | \- |
-| REQ-PLAYER-007 | Collision between the player and an enemy that causes damage shall result in player death.  | TC-PLAYER-008, INDESTRUCTIBLE\_ENEMY-004,TC-GROUND\_ENEMY-005,TC-AIR\_ENEMY-005 | PASS | \- |
+| REQ-PLAYER-007 | Collision between the player and an enemy that causes damage shall result in player death.  | TC-PLAYER-008, TC-INDESTRUCTIBLE\_ENEMY-004,TC-GROUND\_ENEMY-005,TC-AIR\_ENEMY-005 | PASS | \- |
 | REQ-COMBAT-001  | The  player shall be able to fire a projectile using the Shoot button. | TC-COMBAT-001  | PASS | \- |
 | REQ-COMBAT-002  | A projectile shall travel in the intended direction after being fired.  | TC-COMBAT-003  | PASS | \- |
 | REQ-COMBAT-003 | The crossbow firing animation shall be triggered when the player shoots.  | TC-COMBAT-002  | PASS | \- |
@@ -22,9 +22,9 @@
 | REQ-COMBAT-005 | The player shall be able to shoot while jumping.  | TC-COMBAT-006  | PASS | \- |
 | REQ-COMBAT-006 | Repeated shooting inputs shall behave according to the implemented shooting mechanics without causing application errors.  | TC-COMBAT-007, TC-STAB-001  | PASS | \- |
 | REQ-ENEMY-001  | The indestructible enemy shall appear during gameplay.  | TC-INDESTRUCTIBLE\_ENEMY-001  | PASS | \- |
-| REQ-ENEMY-002  | The indestructible enemy shall not be destroyed by projectiles.  | INDESTRUCTIBLE\_ENEMY-002 | PASS | \- |
-| REQ-ENEMY-003  | The player shall be able to avoid the indestructible enemy by jumping over it.  | INDESTRUCTIBLE\_ENEMY-003 | PASS | \- |
-| REQ-ENEMY-004  | Collision with the indestructible enemy shall result in player death.  | INDESTRUCTIBLE\_ENEMY-004 | PASS | \- |
+| REQ-ENEMY-002  | The indestructible enemy shall not be destroyed by projectiles.  | TC-INDESTRUCTIBLE\_ENEMY-002 | PASS | \- |
+| REQ-ENEMY-003  | The player shall be able to avoid the indestructible enemy by jumping over it.  | TC-INDESTRUCTIBLE\_ENEMY-003 | PASS | \- |
+| REQ-ENEMY-004  | Collision with the indestructible enemy shall result in player death.  | TC-INDESTRUCTIBLE\_ENEMY-004 | PASS | \- |
 | REQ-ENEMY-005  | The ground enemy shall appear during gameplay.  | TC-GROUND\_ENEMY-001 | PASS | \- |
 | REQ-ENEMY-006  | The player shall be able to destroy the ground enemy using a projectile.  | TC-GROUND\_ENEMY-002  | PASS | \- |
 | REQ-ENEMY-007  | The player shall be able to avoid the ground enemy without destroying it.  | TC-GROUND\_ENEMY-003  | PASS | \- |
