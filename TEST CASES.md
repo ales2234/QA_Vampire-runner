@@ -25,9 +25,9 @@
 | TC-COMBAT-006  | Combat | Verify player can shoot while jumping  | 1.Tap to jump 2.shoot while jumping | The player shoots while jumping | high |
 | TC-COMBAT-007 | Combat | Verify repeated shooting behaves correctly  | 1.Tap for shooting multiple times | The crossbow shoots multiple times | high |
 | TC-INDESTRUCTIBLE\_ENEMY-001  | Enemy | Verify indestructible enemy spawns correctly  | 1.Play until the double barrel spawns | The double barrel spawns | critical |
-| INDESTRUCTIBLE\_ENEMY-002 | Enemy | Verify projectile does not destroy indestructible enemy  | 1.Shoots double barrel | The double barrel do not get destroyed | high |
-| INDESTRUCTIBLE\_ENEMY-003 | Enemy | Verify player can avoid indestructible enemy by jumping  | 1\. Jump over the obstacle | The player jump over the double barrel | critical |
-| INDESTRUCTIBLE\_ENEMY-004 | Enemy | Verify collision with indestructible enemy causes game over  | 1.Collide with the double barrel | The Game over menu is shown | critical |
+| TC-INDESTRUCTIBLE\_ENEMY-002 | Enemy | Verify projectile does not destroy indestructible enemy  | 1.Shoots double barrel | The double barrel do not get destroyed | high |
+| TC-INDESTRUCTIBLE\_ENEMY-003 | Enemy | Verify player can avoid indestructible enemy by jumping  | 1\. Jump over the obstacle | The player jump over the double barrel | critical |
+| TC-INDESTRUCTIBLE\_ENEMY-004 | Enemy | Verify collision with indestructible enemy causes game over  | 1.Collide with the double barrel | The Game over menu is shown | critical |
 | TC-GROUND\_ENEMY-001 | Enemy | Verify ground enemy spawns correctly  | 1\. Play until single barrel gets spawned | The single barrel spawns | critical |
 | TC-GROUND\_ENEMY-002  | Enemy | Verify projectile destroys ground enemy  | 1.Shoot the single barrel | The single barrel gets destroyed | high |
 | TC-GROUND\_ENEMY-003  | Enemy | Verify player can avoid ground enemy  | 1.Jump over the single barrel | The player jumps over the single barrel | critical |
